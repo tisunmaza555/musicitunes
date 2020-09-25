@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logomusic11.png" width="50%" height="auto">
+    <itune/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import itune from './components/itune'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    itune,
   }
 }
 </script>
